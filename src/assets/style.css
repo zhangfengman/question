@@ -1,0 +1,274 @@
+ul {
+  padding: 0;
+}
+
+.survey_wrap {
+  display: block;
+  zoom: 1;
+  vertical-align: middle;
+  white-space: normal;
+  margin-top: 40px;
+  border: 1px solid #dadada;
+  position: relative;
+  background-color: #fff;
+  padding: 30px 10px 30px;
+  font-size: 14px;
+  margin-left: 140px;
+  min-width: 700px;
+}
+
+.survey_title div {
+  text-align: center;
+}
+
+.survey_title .edit-div {
+  border: 1px solid #e0e0e0;
+}
+
+.survey_remarks .edit-div {
+  border: 1px solid #e0e0e0;
+}
+
+.survey_remarks {
+  font-size: 14px;
+}
+
+.page_edit .survey_wrap .inner {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 710px;
+}
+.page_edit .survey_wrap .inner h2{
+  position: relative;
+}
+.page_edit .survey_wrap .inner h2 .operation_block{
+  position: absolute;
+  right: 0px;
+  top: 50%;
+  margin-top: -15px;
+  color: #999999;
+  cursor:pointer;
+  font-size: 26px;
+}
+
+.page_edit .editor_question .row {
+  /*清理浮动*/
+  *zoom: 1;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.page_edit .editor_question .row:after {
+  content: '';
+  display: block;
+  clear: both;
+  height: 0;
+}
+
+.page_edit .editor_question .row_title {
+  float: left;
+  width: 40px;
+  height: 36px;
+  line-height: 36px;
+  word-break: break-all;
+}
+
+.page_edit .editor_question .row_content {
+  margin-left: 40px;
+  min-height: 36px;
+  line-height: 36px;
+  word-break: break-all;
+}
+
+.page_edit .editor_question .row_content .mod_editor {
+  height: 25px;
+  vertical-align: top;
+  width: 650px;
+}
+
+.page_edit .mod_editor.inline_editor {
+  padding: 0 10px;
+  min-height: 36px;
+  line-height: 36px;
+  background: #fff;
+  border: 1px solid #e0e0e0;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+}
+
+.page_edit .options_list {
+  margin-left: 40px;
+}
+
+.page_edit .editor_question .editor_options {
+  margin-left: 0;
+  position: relative;
+}
+
+.page_edit .editor_question .editor_options .additional_setting_title {
+  font-size: 12px;
+  top: -27px;
+  position: absolute;
+  right: -10px;
+  width: 165px;
+  text-align: center;
+  color: #888;
+}
+
+.page_edit .option_item {
+  position: relative;
+  overflow: hidden;
+  zoom: 1;
+  list-style-type: none;
+  margin: 3px 0 3px -3px;
+  font-size: 14px;
+  line-height: 1.8em;
+}
+
+.page_edit .option_item .mod_editor {
+  height: 25px;
+}
+
+.page_edit .option_item .option_input_wrap {
+  margin-right: 170px;
+}
+
+.page_edit .option_item .option_text {
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  vertical-align: middle;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+  cursor: pointer;
+  display: inline-block;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.page_edit .editor_question .btn_opt_block {
+  color: #999999;
+  position: absolute;
+  top: 8px;
+  right: 96px;
+  z-index: 1;
+}
+
+.page_edit .editor_question .editor_options .option_create .add_option {
+  display: inline-block;
+  zoom: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  border: 1px dashed #e0e0e0;
+  padding: 6px 10px;
+  background: #fafafa;
+  color: #b2b2b2;
+  cursor: pointer;
+}
+
+.page_edit .editor_question .editor_options .options_control {
+  padding-left: 40px;
+}
+
+.page_edit .editor_question .editor_options .options_control a {
+  color: #2f8ddc;
+  font-size: 14px;
+}
+
+.page_edit .editor_sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 120px;
+  border-right: 1px solid #e0e0e0;
+  background-color: #fafafa;
+  z-index: 10;
+  padding: 10px;
+}
+
+.page_edit .editor_sidebar .tab_content ul {
+  list-style: none;
+}
+
+.page_edit .editor_sidebar .tab_content ul {
+  list-style: none;
+}
+
+.page_edit .editor_sidebar .tab_content li {
+  cursor: pointer;
+}
+
+.page_edit .editor_sidebar .type_item {
+  height: 38px;
+  line-height: 38px;
+  border: 1px solid #e0e0e0;
+  background-color: #fff;
+  margin-bottom: 3px;
+  text-align: center;
+}
+
+.page_edit .editor_sidebar .type_item a {
+  display: block;
+  height: 100%;
+  font-size: 14px;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  background-color: transparent;
+}
+
+.operation_center {
+  text-align: center;
+}
+.arrow-bottom{
+  width: 20px;
+  height: 20px;
+  background: url("arrow_bottom.png");
+  background-size: 100%;
+  display: inline-block;
+}
+.arrow-top{
+  width: 20px;
+  height: 20px;
+  background: url("arrow_top.png");
+  background-size:100%;
+  display: inline-block;
+}
+.icon_del{
+  width: 20px;
+  height: 20px;
+  background: url("del.png");
+  background-size: 100%;
+  display: inline-block;
+}
+
+.relation_title{
+  font-size: 18px;
+  color: #075db3;
+}
+.relation_row{
+  margin: 10px auto;
+}
+.relation_header{
+  background: rgb(225, 224, 224);
+
+}
+.relation_header .el-col{
+  text-align: center;
+
+}
+.el-icon-circle-plus-outline,.el-icon-remove-outline{
+  font-size: 22px;
+}
